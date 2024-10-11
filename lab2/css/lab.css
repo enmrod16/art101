@@ -26,10 +26,18 @@
 
   p {
     font-family: 'Courier New', Courier, monospace;
-    text-indent: 30px;
+    font-size: 15px;
     color: #ffffff;
+    text-indent: 15px;
   }
+
   .minor-section {
     background-color: #7b68ee;
     border: 0px;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    
   }

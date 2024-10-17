@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Pseudocding and Problem Solving</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,27 +23,113 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Pseudocoding and Problem Solving</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>The challenge of the lab was to pseudocode an everyday task, and then pseudcode a simple computer game.
+						The goal was to start thinking of pseudocoding before actually getting into the real coding of an item.
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
-			</div>
-
-			<div class="minor-section">
-					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>For this lab, we only had problems when we were attempting to pseudocode a game. We had a lot of ideas, but settled on
+						pseudocoding the classic snake game. We had to figure out how to explain the loss condition and the scoring of points
+					 but through some back and forth we got to a satisfactory explanation.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<p>Lists:
+					</p> 
+					<ol>Cooking an egg
+						<li>Gather your materials; Pan, egg, oil, spatula, etc. </li>
+						<li>Set the pan on the stove and allow it to heat up.</li>
+						<li>Pour a light amount of oil into it.</li>
+						<li>Crack the egg straight into the pan.</li>
+						<li> Allow the egg white to set, then scramble or cook it until it’s to your liking. (Be careful not to overcook it.)</li></ol>
+
+					<ol> Snake game
+						<li>Print player map.</li>
+						<li>Accept/Validate player movement.</li>
+						<li>Spawn new items/sprites.</li>
+						<li>Elongate player avatar. </li>
+						<li>Continue spawning new items/sprites until the player hits the wall, themselves, or they cannot continue.</li>
+						<li>Test win/loss condition.</li></ol>
+					</p>
+
+					<p>SNAKE GAME JS EDITION</p>
+					<p> 
+						// Sprites.
+						  // Set up the player sprite in idle mode.
+						  // Set up the AI sprite in idle mode.
+						// Print player map.
+						  // Lay out barriers such as walls.
+						// Print player UI.
+						  // Lay out scores in the top left corner.
+						// Accept/Validate player movement.
+						  // Accept player movements of moving left, right, up, and down when keys are pressed.
+							  // Bind left, right, up, and down animation to those keys.
+						  // Set player movement speed at a fixed amount.
+						// Spawn new items/sprites over time
+						  // Set up a timer
+						  // Loop items drop at random positions over fixed periods of time.
+							  // Continue spawning new items/sprites until the player hits the wall, themselves, or they cannot continue.
+						// AI:
+						  // Sprites move randomly.
+							  // Bind sprite left, right, up, and down animation to AI’s movements.
+							  // Sprites move at a fixed amount of speed.
+							  // Sprites cannot move out of the boundary of walls.
+						// Elongate player avatar.
+						  //If the player attains an item/sprite, the player elongates by 1 block.
+							 // The item/sprite disappears after colliding with the player.
+						// Test score/loss condition. 
+						  // Collision detections overall:
+							  // Set up collision detection between the player and the sprite.
+							  // Set up collision detection between walls and the player.
+							  // Set up collision detection when the player collides with themselves.
+						  // Score: The player hits an item/sprite and gains 1 point.
+						  // Lose: The player hits a wall or themselves.  
+						</p>
 			</div>
 		</section>
+
+		<section>
+			<pre><code>
+				// Snake Game NOTES
+// Sprites.
+  // Set up the player sprite in idle mode.
+  // Set up the AI sprite in idle mode.
+// Print player map.
+  // Lay out barriers such as walls.
+// Print player UI.
+  // Lay out scores in the top left corner.
+// Accept/Validate player movement.
+  // Accept player movements of moving left, right, up, and down when keys are pressed.
+      // Bind left, right, up, and down animation to those keys.
+  // Set player movement speed at a fixed amount.
+// Spawn new items/sprites over time
+  // Set up a timer
+  // Loop items drop at random positions over fixed periods of time.
+      // Continue spawning new items/sprites until the player hits the wall, themselves, or they cannot continue.
+// AI:
+  // Sprites move randomly.
+      // Bind sprite left, right, up, and down animation to AI’s movements.
+      // Sprites move at a fixed amount of speed.
+      // Sprites cannot move out of the boundary of walls.
+// Elongate player avatar.
+  //If the player attains an item/sprite, the player elongates by 1 block.
+     // The item/sprite disappears after colliding with the player.
+// Test score/loss condition. 
+  // Collision detections overall:
+      // Set up collision detection between the player and the sprite.
+      // Set up collision detection between walls and the player.
+      // Set up collision detection when the player collides with themselves.
+  // Score: The player hits an item/sprite and gains 1 point.
+  // Lose: The player hits a wall or themselves. 
+			</pre></code>
+		</section>
+
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
 		</nav>

@@ -1,9 +1,26 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
-  }
+body {
+  background-color: #7b68ee;
+    color:aliceblue
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+h2 {
+font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: left;
+}
+ 

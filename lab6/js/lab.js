@@ -1,21 +1,25 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/*
+ * index.js - Lab6
+ * Author: Saint Rodriguez
+ * Created: 23 October 2024
+*/
 
-// Constants
+// Define variables
+myTransport = ["Car", "Bus", "Walking"];
 
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+//Object for my main ride
+myMainRide = {
+    make: "Ford",
+    model: "Taurus",
+    color: "Rusty",
+    year: 1995,
+    age: function() {
+      return 2022 - this.year;
+    }
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+//Output
+document.writeln("Kinds of transportation I use: ", myTransport, "</br>");
+document.writeln("My Main Ride: <pre>",
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
 
-// let's get this party started
-main();

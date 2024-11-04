@@ -9,14 +9,14 @@ $("#challenge").append("<button id='button-challenge'>Make Special</button>");
 $("#problems").append("<button id='button-challenge'>Make Special</button>");
 $("#results").append("<button id='button-challenge'>Make Special</button>");
 
-
-    //add a click lsitener to the challenge button
+//add a click listener to the challenge button
 $("button-challenge").click(function(){
         $("#challenge").toggleClass(".special");
         $("#problems").toggleClass(".special");
         $("#results").toggleClass(".special");
 });
 
+// click event for each button
 $("#challenge, button-challenge").click(function() {
     $("#challenge").toggleClass("special");
 })

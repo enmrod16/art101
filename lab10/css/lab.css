@@ -32,11 +32,11 @@ button {
 
 .textmessage {
  font-size: 20px;
- background-color: rgb(55, 129, 248);
- border-radius: 15px;
- padding: 10px 15px;
- font-family: Georgia, serif;
- color:white;
- display: inline-block;
+ background-color: rgb(55, 129, 248); /* inside color of textmsg */
+ border-radius: 15px; /* rounds edges for textmsg bubble */
+ padding: 10px 15px; /* space inside the textmsg box */
+ font-family: Georgia, serif; /* text font */
+ color:white; /* text color */
+ display: inline-block; /* bubble size only around the text */
  max-width: 80%;
 }

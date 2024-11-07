@@ -19,5 +19,7 @@ function generateRandomText() {
 // event listener for my button
 $("#make-convo").click(function(){
     const newText = generateRandomText();
-    $("#output").append('<div class="text"><p>'+ newText + '</p></div>');
+    $("#output").append('<div class="textmessage"><p>'+ newText + '</p><div>');
+    $("#output").append('<p></p>'); 
+    // ^^ adds a new line after inline element
 });

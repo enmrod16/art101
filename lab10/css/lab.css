@@ -21,3 +21,22 @@ body {
 .minor-section {
     background-color: pink;
 }
+
+button {
+    background-color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.textmessage {
+ font-size: 20px;
+ background-color: rgb(55, 129, 248);
+ border-radius: 15px;
+ padding: 10px 15px;
+ font-family: Georgia, serif;
+ color:white;
+ display: inline-block;
+ max-width: 80%;
+}

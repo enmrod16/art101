@@ -10,16 +10,16 @@ function sortingHat(str) {
     len = str.length;
     mod = len % 4;
     if (mod == 0) {
-        return "Gryffindor" 
+        return "Gryffindor: A Gryffindor values 'bravery, daring, nerve, and chivalry." 
     }
     else if (mod == 1) {
-        return "Ravenclaw"
+        return "Ravenclaw: A Ravenclaw values 'intelligence, knowledge, and wit."
     } 
     else if (mod == 2) {
-        return "Slytherin"
+        return "Slytherin: A Slytherin values 'ambition, cunning, and resourcefulness."
     } 
     else if (mod == 3) {
-        return "Hufflepuff"
+        return "Hufflepuff: A Hufflepuff values 'hard work, dedication, patience, loyalty, and fair play."
     }
 }
 

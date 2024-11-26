@@ -1,0 +1,68 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+/* Style for the button with id "activate" */
+#activate {
+    font-size: 18px;           /* Increases the text size */
+    padding: 15px 30px;        /* Adds space around the text (vertical and horizontal) */
+    background-color: gray; /* Green background */
+    color: white;              /* White text color */
+    border: none;              /* Removes default border */
+    border-radius: 8px;        /* Rounded corners */
+    cursor: pointer;          /* Changes cursor to pointer on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+}
+
+/* Button hover effect */
+#activate:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05);     /* Slightly enlarge the button on hover */
+}
+
+/* Optional: Button active effect (when clicked) */
+#activate:active {
+    background-color: #397d3b; /* Even darker green on click */
+    transform: scale(1);        /* Return to original size when clicked */
+}
+
+/* Button focus effect (when the button is focused, e.g., by tabbing) */
+#activate:focus {
+    outline: none;             /* Removes the default outline */
+    box-shadow: 0 0 8px rgba(72, 128, 72, 0.8); /* Adds a glowing effect */
+}
+
+/* Styling for the #answer div */
+#answer {
+    font-size: 24px;                /* Makes the text larger */
+    font-weight: bold;              /* Makes the text bold */
+    color: #333;                    /* Sets text color to dark gray */
+    margin-top: 20px;               /* Adds spacing above the answer */
+    text-align: center;             /* Centers the text inside the div */
+    padding: 20px;                  /* Adds padding inside the div */    
+    border-radius: 10px;            /* Rounded corners */
+    max-width: 80%;                 /* Limits the width of the answer box */
+    margin-left: auto;              /* Centers the box horizontally */
+    margin-right: auto;             /* Centers the box horizontally */
+    overflow: hidden;               /* Prevents content overflow */
+   
+}
+
+/* Reset margin and padding for the image container */
+#image {
+    margin-top: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Reset margin and padding for the image itself */
+#image img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

@@ -15,13 +15,12 @@ button.addEventListener('click', function() {
         url: 'https://yesno.wtf/api',  // API endpoint
         type: 'GET',                   // HTTP method (GET request)
         dataType: 'json',              // Expect JSON data as the response
-        success: function(data) {
-            // This function is executed when the request is successful
+        success: function(data) { 
 
-            // Display the answer (you need to have an element with the id 'answer')
+            // Display the answer 
             $('#answer').html('Answer: ' + data.answer);
 
-            // Display the image (you need to have an element with the id 'image')
+            // Display the image 
             var img = $('<img>');                // Create a new <img> element
             img.attr('src', data.image);         // Set the image source to the URL from the API
             img.attr('alt', data.answer);       // Set the alt attribute to the answer ("yes" or "no")
